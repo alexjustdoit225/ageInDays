@@ -8,4 +8,6 @@ function ageInDays(){
     h2.appendChild(answer);  
   }
   
-  
+  function reset(){
+      document.getElementById('container-result').remove(); 
+  }
